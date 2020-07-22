@@ -22,8 +22,8 @@
 
 6.Future scope for this microservice.
 
-  A) Deploy using HelmChart.
-  B) Add functionality to delete the archieves.
-  C) Serve concurrent request.
-  D) Add GUI.
+  - Deploy using HelmChart.
+  - Add functionality to delete the archieves.
+  - Serve concurrent request.
+  - Add GUI.
  
