@@ -1,9 +1,8 @@
-# FileMgmtMicroservice
-File Management Microservice to save , fetch , list tar from MongoDB . Using Docker for contanerization.
 # FileManagementMicroservice
 ## To save,retrieve,list archieve files from MongoDB this microservice is about. For contanerization Docker is used.
  
 # Run.
+
 0.Clone the project.
 
 1.Inside project directory, fire command **"make all**".
