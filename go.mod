@@ -14,6 +14,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/stretchr/objx v0.2.0 // indirect
+	github.com/stretchr/testify v1.6.1
 	go.mongodb.org/mongo-driver v1.3.5
 	golang.org/x/net v0.0.0-20200602114024-627f9648deb9
 	golang.org/x/tools v0.0.0-20190617190820-da514acc4774 // indirect
