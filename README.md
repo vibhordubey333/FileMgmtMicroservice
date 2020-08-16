@@ -1,7 +1,7 @@
 # FileManagementMicroservice
 ## To save,retrieve,list archieve files from MongoDB this microservice is about. For contanerization Docker is used.
  
-# Run.
+# How To Run !!!
 
 0.Clone the project.
 
@@ -26,4 +26,7 @@
   - Add functionality to delete the archieves.
   - Serve concurrent request.
   - Add GUI.
+
+### Note
+* If container is crashing try changing the permission of binary located under "cmd" directory , using command "chmod 777 main.exe"
  
