@@ -1,8 +1,8 @@
 package service
 
 const (
-	URI                   = "mongodbservice://localhost:27017"
-	URI                   = "mongodb://localhost:27017"
+	URI = "mongodbservice://localhost:27017"
+	//URI                   = "mongodb://localhost:27017"
 	INTERNAL_SERVER_ERROR = "500"
 	DEFAULT_UPLOAD_DIR    = "/tmp"
 	LIST_FAIL_MSG         = "Request to list files failed."
