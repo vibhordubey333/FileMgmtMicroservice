@@ -1,5 +1,8 @@
-all: docker compose
+all: gobuild docker compose
 
+gobuild:
+	GOOS=linux GOARCH=amd64 go build -o cmd/file-mgmt-microservice-server/main cmd/file-mgmt-microservice-server/main.go
+timeout 5:
 docker:
 	 docker build -f build/Dockerfile -t filemgmt .
 compose:
