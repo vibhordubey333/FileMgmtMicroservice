@@ -1,14 +1,17 @@
 version: '3.0'
 services:
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: mongoservice
+
   filemgmt:
+    depends_on:
+      - mongodb
     ports:
       - "7777:7777"
     restart: on-failure
     container_name: filemgmtservice
     image: filemgmt
 
-  mongodb:
-    image: mongo
-    ports:
-      - "27017:27017"
-    container_name: mongoservice

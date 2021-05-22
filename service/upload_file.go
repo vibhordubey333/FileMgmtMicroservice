@@ -45,6 +45,7 @@ func UploadFile(params file_mgmt.UploadFileParams) middleware.Responder {
 	buck, err := gridfs.NewBucket(
 		connObj.Database("Archieves"),
 	)
+
 	if err != nil {
 		errMsg := "Request to upload file failed."
 		log.Fatalln(errMsg)
@@ -56,7 +57,7 @@ func UploadFile(params file_mgmt.UploadFileParams) middleware.Responder {
 		handler.Filename,
 	)
 	defer uploadStream.Close()
-
+	log.Println("Opening stream error : ",err)
 	if err != nil {
 		errMsg := "Request to upload file failed.Error while opening stream."
 		log.Fatalln(errMsg)

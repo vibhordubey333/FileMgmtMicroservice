@@ -50,9 +50,7 @@ func GetFile(params file_mgmt.GetFileParams) middleware.Responder {
 		if err != nil {
 
 			log.Fatalln(GET_FILE_ERROR, "Error while finding document. ", err)
-
 			errMsg := GET_FILE_ERROR + "Error while finding document. " + err.Error()
-
 			return middleware.ResponderFunc(func(w http.ResponseWriter, r runtime.Producer) {
 
 				_ = r // To avoid code smell issue from being reported by SONAR using variable r.
