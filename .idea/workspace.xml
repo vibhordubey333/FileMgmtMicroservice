@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="261d2e71-6567-466c-9aa4-dfb63bc2dbab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/file-mgmt-microservice-server/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
