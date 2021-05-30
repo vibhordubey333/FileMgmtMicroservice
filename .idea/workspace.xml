@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="261d2e71-6567-466c-9aa4-dfb63bc2dbab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="Docker.build.filemgmt: Compose Deployment">
     <configuration name="build.filemgmt: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -83,13 +84,18 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1619846834924">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1622376127755">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619846834924" />
-    <state x="461" y="170" key="SettingsEditor" timestamp="1619846844682">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1622306275134" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1622376127755" />
+    <state x="461" y="175" key="SettingsEditor" timestamp="1622376668574">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="170" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1619846844682" />
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1622307503909" />
+    <state x="461" y="175" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1622376668574" />
+    <state x="461" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1622376230994" />
   </component>
 </project>

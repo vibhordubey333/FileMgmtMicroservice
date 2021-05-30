@@ -15,4 +15,5 @@ services:
     restart: always
     container_name: filemgmtservice
     image: filemgmt
-
+    #volumes:
+    #  - ./cmd/file-mgmt-microservice-server/:/
