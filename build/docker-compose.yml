@@ -6,6 +6,8 @@ services:
     ports:
       - "27017:27017"
     container_name: mongoservice
+    networks:
+      - filemgmtnetwork
 
   filemgmt:
     depends_on:
@@ -15,5 +17,13 @@ services:
     restart: always
     container_name: filemgmtservice
     image: filemgmt
+    networks:
+      - filemgmtnetwork
+
+volumes:
+  filemanagement_volume: {}
+
+networks:
+  filemgmtnetwork:
     #volumes:
     #  - ./cmd/file-mgmt-microservice-server/:/

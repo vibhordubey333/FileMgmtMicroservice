@@ -1,5 +1,11 @@
 FROM golang:1.14
 
-COPY ./cmd/file-mgmt-microservice-server/main /
+MAINTAINER vibhordubey333@gmail.com
 
-ENTRYPOINT ["/main"]
+#VOLUME .cmd/file-mgmt-microservice-server/:/app/
+
+WORKDIR /app
+
+COPY ./cmd/file-mgmt-microservice-server/main /app/
+
+ENTRYPOINT ["/app/main"]
