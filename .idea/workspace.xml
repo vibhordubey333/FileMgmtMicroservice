@@ -3,8 +3,119 @@
   <component name="ChangeListManager">
     <list default="true" id="261d2e71-6567-466c-9aa4-dfb63bc2dbab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/build/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/filemgmt_swagger.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker-compose.test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/filemgmt-pod.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/filemgmt-service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mongodb-deployment.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/mongodb-service.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/file-mgmt-microservice-server/file-mgmt-microservice-server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/file-mgmt-microservice-server/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/file-mgmt-microservice-server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handler/handler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/.goreleaser.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/cmd/mockery/mockery.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/cmd/mockery/mockery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/cmd/mockery/mockery.go.zerr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/cmd/mockery/mockery_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/compat_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/async.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/custom2_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/custom_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/darwin_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/freebsd_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/linux_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/comment/windows_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/filename/iface_darwin.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/filename/iface_freebsd.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/filename/iface_linux.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/buildtag/filename/iface_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/consul.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/custom_error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/empty_interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/func_type.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/http/http.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/imports_from_nested_interface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/imports_same_as_package.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/io_import.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/map_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/mock_method_uses_pkg_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester2.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester3.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester4.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_arg_same_as_import.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_arg_same_as_named_import.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_arg_same_as_pkg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_array.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_elided.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_iface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_ns.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_ptr.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_ret_elided.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_slice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_unexported.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/requester_variadic.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/same_name_imports.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/struct_value.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/fixtures/test/test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/generator.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/generator_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/mockery.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/mockery_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/outputter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/outputter_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/parse_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/walker.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mockery/mockery/walker_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/error.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/configure_file_mgmt_microservice.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/embedded_spec.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/get_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/get_file_parameters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/get_file_responses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/get_file_urlbuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/list_files.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/list_files_parameters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/list_files_responses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/list_files_urlbuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/upload_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/upload_file_parameters.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/upload_file_responses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt/upload_file_urlbuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/operations/file_mgmt_microservice_api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/restapi/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/constants.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/database.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/get_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/list_files.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/upload_file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/handler/handler_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/handler/mocks/HandlerFunctions.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/get_file_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/list_files_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/mocks/GetInterface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/mocks/ListInterface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/mocks/UploadInterface.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/service/upload_file_test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

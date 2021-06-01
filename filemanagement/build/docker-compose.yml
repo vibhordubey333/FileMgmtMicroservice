@@ -1,0 +1,29 @@
+version: '3.0'
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    container_name: mongoservice
+    networks:
+      - filemgmtnetwork
+
+  filemgmt:
+    depends_on:
+      - mongodb
+    ports:
+      - "7777:7777"
+    restart: always
+    container_name: filemgmtservice
+    image: filemgmt
+    networks:
+      - filemgmtnetwork
+
+volumes:
+  filemanagement_volume: {}
+
+networks:
+  filemgmtnetwork:
+  #volumes:
+  #  - ./cmd/file-mgmt-microservice-server/:/
