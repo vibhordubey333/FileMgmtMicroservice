@@ -24,15 +24,7 @@
    
    	server.Host = "0.0.0.0"
    	server.Port = 7777
-
-7.Future scope for this microservice.
-
-  - Deploy using HelmChart.
-  - Add functionality to delete the archieves.
-  - Serve concurrent request.
-  - Add GUI.
   
 
-### Note
-* If container is crashing try changing the permission of binary located under "cmd" directory , using command "chmod 777 main.exe"
+
  
