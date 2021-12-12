@@ -6,7 +6,7 @@ timeout 5:
 docker:
 	 docker build -f ./build/Dockerfile -t filemgmt .
 compose:
-	 docker-compose -f ./build/docker-compose.yml up -d
+	 docker compose -f ./build/docker-compose.yml up -d
 remove:
 	 docker container stop filemgmtservice mongoservice
 	yes |  docker-compose -f ./build/docker-compose.yml rm
